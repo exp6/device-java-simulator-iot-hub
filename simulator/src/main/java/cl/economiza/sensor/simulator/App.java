@@ -20,9 +20,9 @@ import com.microsoft.azure.sdk.iot.device.MessageCallback;
  */
 public class App 
 {
-	private static final String connectionString = "HostName=iot-lab-hub.azure-devices.net;DeviceId=AirDevice001;SharedAccessKey=llY4+dQdgtd1zBj2rmnb/4fnB27BHfuf/ByW5Tjmjgs=";
+	private static final String connectionString = “<device connection string>”;
 	private static IotHubClientProtocol protocol = IotHubClientProtocol.MQTT;
-	private static final String deviceId = "AirDevice001";
+	private static final String deviceId = “<device id>”;
 	private static DeviceClient client;
 	
 	public static void main(String[] args) throws IOException, IllegalArgumentException, URISyntaxException {
